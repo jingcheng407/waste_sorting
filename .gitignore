@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+.idea
+1.h5
+
+
+upload_pic/*
+!upload_pic/placeholder
