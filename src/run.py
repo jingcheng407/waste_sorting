@@ -3,7 +3,7 @@ from werkzeug import secure_filename
 import timeit
 import os
 
-from src import test
+import test
 
 category = ['废纸板、纸板箱', '废玻璃、玻璃瓶', '废金属罐', '废报纸、废杂志', '废塑料盒、塑料瓶']
 
