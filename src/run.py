@@ -25,7 +25,7 @@ def upload():
     if conf < 0.6:
         return '垃圾类别是:' + category[b] + ' || 置信度为:' + str(a.max()) + ' || 置信度过低, 建议返回人工检测'
     else:
-        return '垃圾类别是:' + category[b] + ' || 置信度为:' + str(a.max())
+        return '垃圾类别是:' + category[b]
 
 
 @app.route('/')
