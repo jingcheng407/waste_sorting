@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 
 def save_pic(f):
-    file_name = str(timeit.default_timer()) + secure_filename(f.filename)
+    file_name = str(timeit.default_timer()) + '_' + secure_filename(f.filename)
     file_path = os.path.join(os.path.dirname(__file__), '..', 'upload_pic', file_name)
     f.save(file_path)
 
