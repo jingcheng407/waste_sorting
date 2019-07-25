@@ -23,7 +23,7 @@ def upload():
     a, b = test.f(f)
     conf = a.max()
     if conf < 0.6:
-        return '垃圾类别是:' + category[b] + ' || 置信度为:' + str(a.max()) + ' || 置信度过低, 建议返回人工检测'
+        return '暂时无法识别,换个姿势吧~'
     else:
         return '垃圾类别是:' + category[b]
 
